@@ -1,0 +1,161 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #f3e157;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #800000;
+    background-color: #f3e157;
+	box-shadow: 3px 3px 3px 3px black;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	background-image: linear-gradient(
+		30deg, #740847 0%, #b8487c 30%, white 50%,  #b8487c 80%,#740847 100%);
+}
+header h1 {
+	text-shadow: 2px 2px #0e0303;
+	font-size: 300%;
+	color: #2124c7;
+}
+
+header img {
+	float: left;
+	padding: 0 30px;
+	max-width: 10% ;
+}
+
+
+/* the styles for the navigation menu */
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+aside ul li {
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color:#b8487c;
+    color: white;
+    font-weight: bold;
+}
+
+/* the styles for the main content */
+main {
+	
+	clear: right;
+}
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+
+h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em .5ex;
+}
+p {
+	padding-left: .5em;
+	padding-bottom: .5em;
+}
+
+
+
+
+aside {
+	width: 215px;
+	float: left;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+
+.icons{
+	float: left;
+	margin-bottom: .5em;
+	margin-right: .5em;
+}
+
+footer {
+	margin-top: 0.5ex;
+	background-color: #b8487c;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+
+div
+{
+    display: block;
+    text-align: center;
+}
+form{
+	display: inline-block;
+	border: 1px solid #001963;
+	margin: .5em 0 2em;
+	padding: 0.5ex;
+}
+
+
+form label {
+    width: 8em;
+    margin-top: 0;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+}
+form input {
+    margin-bottom: 1em;
+}
+
+form select {
+	margin-bottom: 1em;
+}
+
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed #001963;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
